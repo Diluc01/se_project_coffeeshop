@@ -1,0 +1,121 @@
+.header {
+  background-color: #ffffff;
+  background-image: url("/images/background_header.svg");
+  position: relative;
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+a:hover {
+  color: #2f80ed;
+  transition: ;
+}
+
+.logo {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__links {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 30px;
+  margin-right: 80px;
+  list-style: none;
+}
+
+.nav__link {
+  text-decoration: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header__title {
+  margin-top: 80px;
+  margin-left: 80px;
+  max-width: 729px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 30px;
+  position: relative;
+}
+
+.header__span-accent {
+  font-family: "Noto Serif", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  max-width: 729px;
+  display: block;
+  /*margin: 200px 0 0;*/
+
+  color: #2f80ed;
+}
+
+.header__span-accent-2 {
+  position: absolute;
+  z-index: 2;
+}
+
+.header__description {
+  margin-left: 80px;
+  margin-top: 28px;
+  max-width: 683px;
+  font-family: "Noto Serif", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__image {
+  position: absolute;
+  width: 646px;
+  height: 568px;
+  top: 124px;
+  right: 5px;
+}
+
+.header__footer {
+  display: flex;
+  /*margin-left: 80px;
+  margin-bottom: 40px;*/
+  gap: 0;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 40px;
+  left: 80px;
+  width: 100%;
+  align-items: flex-end;
+}
+
+.header__paragraph {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header__footer-address {
+  position: absolute;
+  bottom: 40px;
+  right: 80px;
+}
