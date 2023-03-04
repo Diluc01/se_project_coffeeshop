@@ -1,6 +1,11 @@
 @import url("normalize.css");
 @import url(/blocks/Header.css);
 @import url(/blocks/menu.css);
+@import url(/blocks/Recipes.css);
+@import url(/blocks/reservation.css);
+@import url(/blocks/about.css);
+@import url(/blocks/footer.css);
+
 * {
   font-family: "Noto Serif", "Times New roman", serif;
 }
