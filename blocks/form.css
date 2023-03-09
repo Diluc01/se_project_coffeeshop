@@ -21,6 +21,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  color: #000;
 }
 
 .form__input {
@@ -36,7 +37,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  color: #838383;
+  border: 2px solid #838383;
 }
 
 .form__button {
@@ -58,8 +59,9 @@
   font-size: 16px;
   line-height: 20px;
   background-color: #2f80ed;
-  color: white;
+  color: #fff;
   align-items: center;
+  border: none;
 }
 
 .form__button:hover {

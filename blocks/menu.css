@@ -1,6 +1,6 @@
 .menu {
   background-color: #0a2750;
-  background-image: url(/images/background_menu.svg);
+  background-image: url(../images/background_menu.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -15,7 +15,8 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  color: white;
+  color: #fff;
+  margin-top: 0;
 }
 
 .menu__subtitle {
@@ -26,7 +27,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  color: white;
+  color: #fff;
 }
 
 .menu__cards {

@@ -28,7 +28,7 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  color: white;
+  color: #fff;
 }
 
 .footer__list {
@@ -48,7 +48,7 @@
 }
 
 .footer__social-link {
-  color: white;
+  color: #fff;
   transition: color 1s linear;
   text-decoration: none;
   font-family: "Inter", sans-serif;
@@ -70,5 +70,5 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  color: white;
+  color: #fff;
 }
