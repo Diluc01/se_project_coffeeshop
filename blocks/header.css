@@ -10,11 +10,6 @@
   background-repeat: no-repeat;
 }
 
-a:hover {
-  color: #2f80ed;
-  transition: ;
-}
-
 .header__title {
   margin-top: 80px;
   margin-left: 80px;
@@ -23,31 +18,24 @@ a:hover {
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
-  line-height: 30px;
+  line-height: 72px;
   position: relative;
+  margin-bottom: 0;
 }
 
 .header__span-accent {
   font-family: "Noto Serif", serif;
   font-style: italic;
   font-weight: normal;
-  font-size: 60px;
-  line-height: 72px;
   max-width: 729px;
   display: block;
-  /*margin: 200px 0 0;*/
 
   color: #2f80ed;
 }
 
-.header__span-accent-2 {
-  position: absolute;
-  z-index: 2;
-  color: #000;
-}
-
 .header__description {
   margin-left: 80px;
+  margin-bottom: 0;
   margin-top: 28px;
   max-width: 683px;
   font-family: "Noto Serif", serif;

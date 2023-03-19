@@ -1,9 +1,12 @@
 .card {
-  width: 600px;
+  max-width: 600px;
+  flex-basis: 400px;
+  flex-grow: 1;
 }
 
 .card__title {
   margin-bottom: 32px;
+  margin-top: 0;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -14,6 +17,8 @@
 
 .card__list {
   padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .card__list-item {
@@ -27,6 +32,11 @@
   font-size: 16px;
   line-height: 20px;
   color: #fff;
+  gap: 5px;
+}
+
+.card__list-item:last-child {
+  margin-bottom: 0;
 }
 
 .card__list-divider {

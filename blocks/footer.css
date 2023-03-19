@@ -1,5 +1,5 @@
 .footer {
-  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+  background-image: linear-gradient(180deg, #0a2850 0%, #071931 100%);
 }
 
 .footer__content {
@@ -16,11 +16,6 @@
   height: 21px;
 }
 
-.footer__social-section {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
 .footer__social-heading {
   margin-bottom: 20px;
   font-family: "Inter", sans-serif;
@@ -29,6 +24,7 @@
   font-size: 16px;
   line-height: 20px;
   color: #fff;
+  margin-top: 0;
 }
 
 .footer__list {
@@ -36,9 +32,9 @@
   gap: 16px;
   display: flex;
   flex-direction: column;
-}
-
-.footer__list-item {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .footer__social-icon {
@@ -48,6 +44,8 @@
 }
 
 .footer__social-link {
+  display: flex;
+  align-items: center;
   color: #fff;
   transition: color 1s linear;
   text-decoration: none;
@@ -71,4 +69,6 @@
   font-size: 16px;
   line-height: 20px;
   color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
 }

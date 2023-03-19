@@ -10,6 +10,8 @@
   margin-top: 30px;
   margin-right: 80px;
   list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
 }
 
 .nav__link {
@@ -20,4 +22,9 @@
   font-size: 16px;
   line-height: 20px;
   color: #000;
+  transition: color 1s ease;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
 }
